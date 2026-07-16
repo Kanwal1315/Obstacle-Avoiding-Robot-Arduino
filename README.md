@@ -1,12 +1,16 @@
+<p align="center">
+  <img src="Cover-page.png" width="100%">
+</p>
+
 # 🤖 Obstacle Avoiding Robot using Arduino
 
-An autonomous robot developed using **Arduino Uno** and an **HC-SR04 Ultrasonic Sensor** that can detect and avoid obstacles automatically without human intervention.
+An Arduino-based autonomous robot that detects and avoids obstacles using an **HC-SR04 Ultrasonic Sensor**. This project demonstrates the fundamentals of robotics, embedded systems, and autonomous navigation.
 
 ---
 
 # 📖 Project Overview
 
-This project demonstrates the fundamentals of robotics, embedded systems, and autonomous navigation. The robot continuously measures the distance to nearby objects using an ultrasonic sensor and changes its direction whenever an obstacle is detected.
+The Obstacle Avoiding Robot is designed to move autonomously without human intervention. It continuously detects nearby obstacles using an ultrasonic sensor and changes its direction to avoid collisions. This project is an excellent introduction to robotics, sensor integration, and Arduino programming.
 
 ---
 
@@ -15,8 +19,8 @@ This project demonstrates the fundamentals of robotics, embedded systems, and au
 - Design an autonomous obstacle avoiding robot.
 - Learn Arduino programming.
 - Interface ultrasonic sensors with Arduino.
-- Understand robotic navigation.
-- Improve problem-solving skills in robotics.
+- Develop obstacle detection and avoidance logic.
+- Understand embedded systems and robotics.
 
 ---
 
@@ -27,7 +31,6 @@ This project demonstrates the fundamentals of robotics, embedded systems, and au
 - L298N Motor Driver
 - DC Motors
 - Robot Chassis
-- Wheels
 - Servo Motor
 - Battery Pack
 - Jumper Wires
@@ -36,50 +39,26 @@ This project demonstrates the fundamentals of robotics, embedded systems, and au
 
 # ⚙️ Working Principle
 
-1. Ultrasonic sensor continuously measures distance.
-2. Arduino processes sensor data.
+1. The ultrasonic sensor continuously measures the distance in front of the robot.
+2. Arduino processes the received distance.
 3. If an obstacle is detected, the robot stops.
-4. Servo scans left and right.
+4. The servo motor scans left and right.
 5. Arduino selects the safest direction.
-6. Robot continues moving.
+6. The robot continues moving while avoiding obstacles.
 
 ---
 
 # 📸 Project Preview
 
-## 🖼️ Cover Page
+## 🖼️ Project Cover
 
-*(Cover image will be added here.)*
+![Cover](Cover-page.png)
 
 ---
 
 ## 🤖 Robot Design
 
-*(Image will be added here.)*
-
----
-
-## 📡 Ultrasonic Sensor
-
-*(Image will be added here.)*
-
----
-
-## ⚙️ Working Principle
-
-*(Image will be added here.)*
-
----
-
-## 🔌 Circuit Diagram
-
-*(Image will be added here.)*
-
----
-
-## 📊 Final Output
-
-*(Image will be added here.)*
+![Robot](Robot-pic.png)
 
 ---
 
@@ -87,30 +66,30 @@ This project demonstrates the fundamentals of robotics, embedded systems, and au
 
 - Autonomous Navigation
 - Obstacle Detection
-- Real-Time Distance Measurement
-- Low Cost
-- Arduino Based
+- Ultrasonic Distance Measurement
+- Arduino-Based Control
+- Low-Cost Design
 - Beginner Friendly
 
 ---
 
 # 🌍 Applications
 
-- Robotics Learning
-- Warehouse Robots
-- Smart Navigation
-- Educational Projects
+- Robotics Education
 - Autonomous Vehicles
+- Warehouse Robots
+- Smart Navigation Systems
+- STEM Learning Projects
 
 ---
 
 # 🚀 Future Improvements
 
 - AI-Based Navigation
-- Computer Vision
+- Camera Vision
 - IoT Monitoring
 - Voice Control
-- GPS Navigation
+- GPS Integration
 
 ---
 
@@ -119,7 +98,6 @@ This project demonstrates the fundamentals of robotics, embedded systems, and au
 - 📄 Project Report
 - 📊 PowerPoint Presentation
 - 🖼️ Project Images
-- 💻 Arduino Source Code
 
 ---
 
